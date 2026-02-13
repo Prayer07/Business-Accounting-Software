@@ -51,7 +51,7 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
         `}
       >
         <h2 className="text-xl font-bold mb-6 text-[#3e2f25]">
-          Everkel
+          Business Accounting Software
         </h2>
 
         <nav className="flex flex-col gap-2 text-sm">
