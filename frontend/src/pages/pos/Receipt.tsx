@@ -62,16 +62,11 @@ export default function Receipt() {
       // Company Info (left side)
       pdf.setFontSize(9)
       pdf.setFont("helvetica", "bold")
-      pdf.text("EVERKEL GLOBAL VENTURES NIG.LTD", 20, y)
+      pdf.text("BUSINESS ACCOUNTING SOFTWARE NIG.LTD", 20, y)
       y += 4
-      pdf.setFont("helvetica", "normal")
-      pdf.text("Zone B, Block 14, Shop 13", 20, y)
+      pdf.text("08135672304", 20, y)
       y += 4
-      pdf.text("Aspamda Trade Fair Lagos", 20, y)
-      y += 4
-      pdf.text("08033967047", 20, y)
-      y += 4
-      pdf.text("08039561895", 20, y)
+      pdf.text("09161083039", 20, y)
 
       // Date box (right side)
       const dateY = 35
@@ -204,22 +199,6 @@ export default function Receipt() {
       pdf.text("NGN0.00", 185, y, { align: "right" })
       y += 8
 
-      // pdf.setTextColor(100)
-      // pdf.setFont("helvetica", "normal")
-      // pdf.text("TAX RATE:", summaryX, y)
-      // pdf.setTextColor(0)
-      // pdf.setFont("helvetica", "bold")
-      // pdf.text("0.00%", 185, y, { align: "right" })
-      // y += 8
-
-      // pdf.setTextColor(100)
-      // pdf.setFont("helvetica", "normal")
-      // pdf.text("TAX:", summaryX, y)
-      // pdf.setTextColor(0)
-      // pdf.setFont("helvetica", "bold")
-      // pdf.text("NGN0.00", 185, y, { align: "right" })
-      // y += 8
-
       pdf.setTextColor(100)
       pdf.setFont("helvetica", "normal")
       pdf.text("AMOUNT PAID:", summaryX, y)
@@ -307,11 +286,9 @@ export default function Receipt() {
           <div className="grid grid-cols-2 gap-8">
             {/* Left Column - Company Info */}
             <div className="text-sm space-y-1">
-              <p className="font-bold">EVERKEL GLOBAL VENTURES NIG.LTD</p>
-              <p>Zone B, Block 14, Shop 13</p>
-              <p>Aspamda Trade Fair Lagos</p>
-              <p>08033967047</p>
-              <p>08039561895</p>
+              <p className="font-bold">BUSINESS ACCOUNTING SOFTWARE NIG.LTD</p>
+              <p>08135672304</p>
+              <p>09161083039</p>
             </div>
             
             {/* Right Column - Receipt Details */}
