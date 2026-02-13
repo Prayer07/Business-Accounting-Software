@@ -21,6 +21,7 @@ const allowedOrigins = [
   "http://localhost:5174",
   "https://everkel.vercel.app",
   "https://www.everkelglobalventures.com"
+  'https://bas-alpha.vercel.app'
 ]
 
 // ✅ CORS configuration
