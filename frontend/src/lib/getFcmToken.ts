@@ -14,7 +14,7 @@ export async function registerPush() {
   try {
     // ✅ Register service worker first
     const registration = await navigator.serviceWorker.register(
-      `https://www.everkelglobalventures.com/firebase-messaging-sw.js`
+      `https://bas-alpha.vercel.app/firebase-messaging-sw.js`
     )
     console.log("✅ Service Worker registered:", registration)
 
